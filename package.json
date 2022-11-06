@@ -1,0 +1,31 @@
+{
+  "name": "shopping-app",
+  "version": "1.0.0",
+  "description": "Shopping application using mern stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start-server": "nodemon server.js --ignore './client/'",
+    "start-client": "npm start --prefix client",
+    "dev": "concurrently \"npm run start-server\" \"npm run start-client\" "
+  },
+  "author": "Jyoti Prakash Nayak",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.2.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1"
+  }
+}

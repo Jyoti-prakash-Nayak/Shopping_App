@@ -1,0 +1,26 @@
+.signup-container{
+    background-image: url('E:\React\SHOPPING-APP\client\public\images\signup.jpg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.signin-container{
+    background-image: url('E:\React\SHOPPING-APP\client\public\images\signin.jpg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.home-page{
+    height:100vh;
+}
+.banner-image{
+    background-image: url('E:\React\SHOPPING-APP\client\public\images\home-page.png');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:60%;
+}
